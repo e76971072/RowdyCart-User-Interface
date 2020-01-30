@@ -1,9 +1,7 @@
 import { Form, Col, Button , ButtonGroup, Container} from 'react-bootstrap';
 import  React from 'react';
-import { Route , Redirect , Link } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.css';
 import  './Signup.css'; 
-import  Login  from './Login';
 import  { Home }  from './Home';
 import axios from 'axios'; 
 
