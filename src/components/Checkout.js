@@ -20,7 +20,7 @@ function Checkout(props){
                     }
                     console.log(orderobject)
                   axios
-                   .post('http://127.0.0.1:5000/order', orderobject , config)
+                   .post('https://grocery-back-end.herokuapp.com/order', orderobject , config)
                    .then(response => {
                              // checking status Http 
                              if ( response.status === 200  ){
