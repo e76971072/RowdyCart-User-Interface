@@ -1,0 +1,99 @@
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size:cover; 
+  background-image: url("./img/Grocery-Bag.jpg");
+}
+
+
+.selection-container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 50%;
+    top: 20%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,1.0);
+    border-radius: 1rem;
+    left: 28%;
+    background-color:rgba(0,0,0,0.8);
+  
+}
+
+.submit {
+    background-color: green;
+    color: white;
+    width: 90%;
+    border: none;
+} 
+.submit:hover {
+    background-color: #53E0BC;
+    color: cornsilk;
+    border: none;
+}
+.form-container {
+    width: 70%;
+    height: 70%;
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 10%;
+    color: white;
+}
+.submitLogin {
+    width: 90%;
+    background-color: green;
+}
+
+
+::-webkit-input-placeholder {
+    font-size: 12px;
+   
+ }
+.button-group {
+  position: absolute;
+  top: 5%;
+ 
+}
+
+
+.Login-Container{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.Login-Container input {
+    width: 50%;
+    margin-left: 25%;
+}
+.Login-Container button {
+    width: 50%;
+    
+}
+
+.button-group button {
+    background: transparent;
+    color: tomato;
+    border:1px solid tomato;
+}
+.button-group  button:hover {
+   background-color: #FF4B2B;
+   
+}
+.loginpage {
+    border-right: 1px solid black; 
+}
+.homepage {
+    border-left: 1px solid black;
+}
+.alert-danger{
+    position: absolute;
+    top: 13%;
+    display: none;
+    
+}

@@ -1,0 +1,54 @@
+/* css reset http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+.Fruit-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    position: absolute;
+    top: 30%;
+
+}
+.Fruit-Container li {
+    display: inline;
+}
+
+.each-fruit-picture {
+    width: 18rem;
+    margin: 20px ;
+    border-radius: 2rem;
+}
+.each-fruit-picture:hover {
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cart-plus { 
+    font-size: 40px;
+    color: rgb(88, 245, 205);
+}
+.cart-plus2 { 
+    font-size: 30px;
+}
+.linebar2 {
+    float: right;
+  
+
+}
+.linebar2 ul li {
+    display: inline-flex;
+    margin: 15px;
+}
+.nav-bar-cart  {
+   font-size: 20px;
+}
+.list-group button{
+    font-size: small;
+    background: none;
+    color: gray;
+    border: none;
+}
