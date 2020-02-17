@@ -43,21 +43,7 @@ npm start  ( by default localhost:3000)
 
 
 
-## Development setup
 
-
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-
-
-```sh
-
-make install
-
-npm test
-
-```
 
 
 
@@ -66,7 +52,10 @@ npm test
 - 3 branches: 
 
 > Backend brach (FLASK): handling HTTP requests from client, storing data using PhpMySql
+
 > Frontend branch (React): Focusing on UI/UX
+
+
 > Master branch: Merged both branches to go into production. 
 
 
