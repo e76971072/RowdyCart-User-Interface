@@ -64,9 +64,15 @@ npm test
 ## Release History
 - Please refer to  [this ](https://github.com/e76971072/CUSTOMER-PORTAL) to see our development process.  
 - 3 branches: 
-		**- Backend brach (FLASK):** handling HTTP requests from client, storing data using PhpMySql
-		**- Frontend branch (React)**: Focusing on UI/UX
-		- **Master branch** : Merged both branches to go into production. 
+
+> Backend brach (FLASK): handling HTTP requests from client, storing data using PhpMySql
+> Frontend branch (React): Focusing on UI/UX
+> Master branch: Merged both branches to go into production. 
+
+
+
+
+
 
 
 
