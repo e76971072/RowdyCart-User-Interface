@@ -42,6 +42,6 @@
   "devDependencies": {
     "css-loader": "^3.2.1",
     "install": "^0.13.0",
-    "npm": "^6.13.2"
+    "npm": "^6.14.18"
   }
 }
